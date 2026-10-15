@@ -1,4 +1,4 @@
-# ReplyPin 楼层置顶（cathi/flarum-reply-pin）
+# ReplyPin 楼层置顶（liufencn/flarum-reply-pin）
 
 把 Flarum 讨论内**任意一条回复楼层**钉到讨论页面顶部，并给被置顶的楼层加图钉徽标。
 
@@ -21,13 +21,13 @@
 ## 安装
 
 ```bash
-composer require cathi/flarum-reply-pin
+composer require liufencn/flarum-reply-pin
 php flarum migrate
-php flarum extension:enable cathi-reply-pin
+php flarum extension:enable liufencn-reply-pin
 php flarum cache:clear
 ```
 
-也可以手动部署：把本仓库放到 `extensions/cathi-flarum-reply-pin/`，再在后台启用。扩展 id 为 `cathi-reply-pin`。
+也可以手动部署：把本仓库放到 `extensions/` 下任意目录（建议与扩展 id 一致，如 `liufencn-reply-pin`），再在后台启用。扩展 id 为 `liufencn-reply-pin`。
 
 ## 使用
 

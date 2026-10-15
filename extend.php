@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 楼层置顶（cathi/flarum-reply-pin）
+ * 楼层置顶（liufencn/flarum-reply-pin）
  *
  * 把讨论内任意一条「回复楼层」钉到讨论页面顶部，并加图钉徽标。
  * 与官方 flarum-sticky（置顶整个讨论）不同，这里置顶的是讨论内的单条回复。

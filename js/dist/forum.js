@@ -1,5 +1,5 @@
 /**
- * 楼层置顶（cathi-flarum-reply-pin）—— 手写 dist，不依赖 webpack 构建。
+ * 楼层置顶（liufencn-flarum-reply-pin）—— 手写 dist，不依赖 webpack 构建。
  *
  * 作用：把讨论内任意一条回复楼层钉到讨论页顶部，并加图钉徽标。
  *
@@ -290,7 +290,7 @@
 
   // ★★★ 关键：必须导出 module.exports = { extend: [] }。
   //   Flarum 2.0 的 JsCompiler 把本 dist 直接拼进 forum.js，并在每个扩展源码后追加
-  //       flarum.extensions['cathi-flarum-reply-pin'] = module.exports;
+  //       flarum.extensions['liufencn-flarum-reply-pin'] = module.exports;
   //   核心 bootExtensions 随后读该值的 .extend。若不定义 module.exports，
   //   module 会解析到核心自己的 module 对象，这行赋值污染核心模块注册表，
   //   导致后续扩展 boot 抛 "Cannot read properties of undefined (reading 'extend')"，
